@@ -1,0 +1,5 @@
+DROP DATABASE moneys;
+
+CREATE DATABASE moneys;
+
+USE moneys;
