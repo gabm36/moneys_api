@@ -5,7 +5,7 @@
         "psr-4": {
             "Moneys\\Models\\": "src/models/",
             "Moneys\\Controllers\\": "src/controllers/",
-            "Moneys\\Views\\": "src/views/"
+            "Moneys\\DAL\\": "src/dals/"
         }
     },
     "authors": [

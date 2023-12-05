@@ -9,20 +9,20 @@ class ComposerStaticInit23d86af824ae23bda5873e7963d32c75
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (
-            'Moneys\\Views\\' => 13,
             'Moneys\\Models\\' => 14,
+            'Moneys\\DAL\\' => 11,
             'Moneys\\Controllers\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Moneys\\Views\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src/views',
-        ),
         'Moneys\\Models\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/models',
+        ),
+        'Moneys\\DAL\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/dals',
         ),
         'Moneys\\Controllers\\' => 
         array (
